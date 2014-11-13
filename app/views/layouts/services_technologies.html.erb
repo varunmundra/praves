@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Moblie App Development Company |  Business  Apps Developer - Praves Technologies</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+<!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52851847-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+<!--End of Google Analytics code-->
+
+<link rel="icon" type="image/ico" href="/assets/favicon.ico">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our professional mobile apps developers build a custom mobile application for  your business. Contact Us  today for free quote and discount.">
+    <meta name="author" content="Praves technologies">
+    <meta name="keyword" content="android app development, responsive website design, website development, ios application development, webdesigning, graphics designing, mobile marketing solutions, custom software development">
+    <link href="/assets/bootstrap.css" rel="stylesheet">
+    <link href="/assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/icomoon.css">
+    <link href="/assets/animate-custom.css" rel="stylesheet">
+    <link href="/assets/contact.css" rel="stylesheet">    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=aller">   
+    <script src="/assets/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/modernizr.custom.js"></script>
+</head>
+<body>
+
+<!-- <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <div class="nav navbar-nav">
+
+
+ <a id="navbar_logo" class="navbar-brand" href="/"><span>  <%= image_tag("favicon.ico", size:"45x45",  alt: "logo") %></span></a>
+  <div style="margin-left: 1055px; padding-top:0.3cm;"> <a href="/" class="btn btn-primary active">Home</a></div>
+</div></div></div>
+ -->
+
+<!-- ==== MODAL ==== -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title">Get a Quotation</h4>
+                    </div>
+                    <div class="modal-body">
+  <div class="row">
+    <div class="col-lg-12 head-bg1">
+
+      <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+    <div class="form-group">
+        <h5><label for="inputName">Name</label></h5>
+        <input type="text" name="career[name]" class="form-control" tabindex="1" placeholder="Enter your name" pattern="[a-zA-Z. ]{1,50}" required>
+    </div>
+    <div class="form-group">
+        <h5><label for="inputEmail">Email</label></h5>
+        <input type="email" name="career[email]" class="form-control" tabindex="2" placeholder="Enter your email address" required>
+    </div>
+    <div class="form-group">
+        <h5><label for="inputMobile">Mobile</label></h5>
+        <input type="tel" name="career[mobile]" class="form-control" tabindex="3" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+    </div>
+    <div class="form-group">
+        <h5><label for="inputMessage">Message</label></h5>
+        <input type="text" name="career[message]" class="form-control" tabindex="4" placeholder="Write your details" required>
+    </div>  
+
+
+    <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+</form>
+      
+      </div>
+    </div>  
+                      
+                    </div>
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div> -->
+                  </div>
+             </div>
+        </div>
+  
+<!-- ==== NAVBAR ==== --> 
+
+<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      
+      <div class="container">
+        <div class="navbar-header">
+          <div class="row">
+          <div class="col-xs-2">
+          <a href="/quote"><button type="button"  class=" btn btn-primary hidden-sm hidden-md hidden-lg" id="navbar_quote_collapse"><span class="icon icon-pencil-2"></span> <span class="text">Get a Quote</span></button></a>
+
+        </div>
+        
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span>  <%= image_tag("favicon.ico", size:"45x45",  alt: "logo") %></span>
+          </button>
+      
+          </div>
+          <a id="navbar_logo" class="navbar-brand hidden-xs" href="/"><span>  <%= image_tag("favicon.ico", size:"45x45",  alt: "logo") %></span></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">            
+      <li> <a href="/#home" class="smoothScroll" id="navbar_color1"> Home </a></li>
+      <li> <a href="/#about" class="smoothScroll" id="navbar_color2"> About </a></li>
+      <li> <a href="/#services" class="smoothScroll" id="navbar_color1"> Services </a></li>
+      <li> <a href="/#technologies" class="smoothScroll" id="navbar_color2"> Technologies </a></li>
+      <li> <a href="/#clients" class="smoothScroll" id="navbar_color1"> Clients </a></li>
+      <li> <a href="/#career" class="smoothScroll" id="navbar_color2"> Career </a></li>
+ <!-- <li> <a href="/#team" class="smoothScroll" id="navbar_color1"> Team </a></li> -->
+      <li> <a href="/#contact" class="smoothScroll" id="navbar_color2"> Contact </a></li>
+      
+      <li> <a href="/quote"><button type="button"  class=" btn btn-primary hidden-xs" id="navbar_quote"><span class="icon icon-pencil-2"></span> <span class="text">Get a Quote</span></button></a></li>
+
+      
+        </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+    </div>
+    </div>
+
+
+<!-- === Close responsive navbar automatically ==== -->
+  <script type="text/javascript">
+$('.navbar-collapse').click('li', function() {
+  $('.navbar-collapse').collapse('hide');
+});
+  </script>
+
+
+<%= yield %>
+
+    
+    <div id="footerwrap">
+      <div class="container">
+        <h4> <a href="/">Praves Technologies Ltd.</a> - Copyright &copy; 2014</h4>
+      </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!-- ==== GREYWRAP ==== -->
+		<div id="service_home">
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-3 callout">
+					<%= image_tag("service_sap.png",size:"60x60", alt: "SAP Solutions") %>
+					<a href="#"><h5>SAP Solutions & Consulting</h5></a>
+				</div>
+					
+				<div class="col-lg-3 callout">
+					<%= image_tag("service_software.png",size:"60x60", alt: "Software Testing") %>
+					<a href="#"><h5>Software Testing & QA</h5></a>
+				</div>
+				
+				<div class="col-lg-3 callout">
+					<%= image_tag("service_mobile.png",size:"60x60", alt: "Mobile-App") %>
+					<a href="#"><h5>Mobile Apps & Web Development</h5></a>
+				</div>
+
+				<div class="col-lg-3 callout">
+					<%= image_tag("service_e_learning.png",size:"60x60", alt: "E-Learning") %>
+					<a href="#"><h5>E-Learning & Classroom Training</h5></a>
+				</div>
+
+			</div>
+		</div>   
+	</div>
+
+
+//css
+
+	#service_home {
+    margin-top: -11.5%;
+    opacity: 0.8;
+}

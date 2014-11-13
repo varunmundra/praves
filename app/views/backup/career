@@ -1,0 +1,116 @@
+<div class="container" id="career" name="career">
+			<br><br><br>
+			<br>
+			<div class="row">
+				<h2 class="centered">CAREER</h2>
+				<hr>
+				<br>
+			</div><!-- row -->
+
+			<div class="row">
+				<div class="col-lg-6 blog-bg">
+					<div class="col-lg-4 centered">
+					<br>
+						<p><img class="img img-circle" src="/assets/career1.jpg" width="60px" height="60px"></p>
+						<h4>Join Our Organization</h4>
+						<!-- <h5>Published Aug 30.</h5> -->
+					</div>
+
+					<div class="col-lg-8 blog-content" id="career_form">
+						<h2>Apply Here</h2>     
+    <!-- Form -->
+  			<form  action="" method="POST" enctype="multipart/form-data" id="contact-form" >
+      			<div>
+        			<label>
+          			<span>Name: *</span>
+          			<input placeholder="Enter your name" type="text" tabindex="1" pattern="[a-zA-Z. ]{1,50}" id="contact_name" name="contact[name]" required >
+        			</label>
+      			</div>
+      			<div>
+        			<label>
+          			<span>Email: *</span>
+          			<input placeholder="Enter your email address" type="email" tabindex="2" id="contact_email" name="contact[email]"  required>
+        			</label>
+      			</div>
+      			<div>
+        			<label>
+          			<span>Mobile: * </span>
+          			<input placeholder="Enter your mobile number" type="tel" tabindex="3" pattern="[0-9]{10}" maxlength="10" id="contact_phone" name="contact[phone]" required>
+        			</label>
+      			</div>
+     			<div>
+        			<label>
+          			<span>Qualification: *</span>
+          			<input placeholder="Enter the qualification" type="text" tabindex="4" pattern="[a-zA-Z. ]{1,50}" id="contact_qualification" name="contact[qualification]" required>
+        			</label>
+      			</div>
+      			<div>
+        			<label>
+          			<span>Upload Resume: *</span>
+          			<input placeholder="Upload a file" type="file" tabindex="5" pattern="[a-zA-Z. ]{1,50}" id="contact_file" name="contact[file]" required>
+        			</label>
+      			</div>
+      			<div>
+        			<button name="submit" type="submit" id="contact-submit" name="commit">Submit</button>
+      			</div>
+  			</form> 
+    <!-- /Form -->
+						<!-- <p><a href="#" class="icon icon-link"> Read More</a></p> -->
+						<br>
+					</div>
+				</div><!-- /col -->
+				
+				<div class="col-lg-6 blog-bg">
+					<div class="col-lg-4 centered">
+					<br>
+						<p><img class="img img-circle" src="/assets/career2.png" width="60px" height="60px"></p>
+						<h4>Current Jobs</h4>
+						<!-- <h5>Published Aug 28.</h5> -->
+
+					<br><br><br><br>
+						<p><img class="img img-circle" src="/assets/career3.jpg" width="60px" height="60px"></p>
+						<!-- <h4>Current Job</h4> -->
+						<!-- <h5>Published Aug 28.</h5> -->
+					
+					</div>
+
+					<div class="col-lg-8 blog-content">
+						<h2>Lead Your Own Destiny</h2>
+				<ul id="career_ul">                
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#SBC">SAP Basis Consultant</a> </li>
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#HR">SAP HR</a> </li>
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#SSAP">SAP Security Senior Consultant</a> </li>
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#BI">Senior Business Intelligence Developer–ArcGIS</a>
+                </li>
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#STQA">Software Testing and QA Analyst</a> </li>
+                <li><a href="http://www.pravestech.ca/CareerDetail.aspx#BPC">SAP BPC Project Manager/Solution Architect</a>
+                </li>
+                </ul>
+
+                       <H2>Working at PRAVES</H2>
+                       <P>Praves Technologies builds strong relations with employees based on mutual trust and respect. Our strength lies in our highly skilled and motivated work force. We look forward to have people with talent, inspiration and sense of adventure for taking themselves and lead to company growth as well.
+                       </P>
+											<!-- <p><a href="#" class="icon icon-link"> Read More</a></p> -->
+						<br><br>
+					</div>
+
+				</div><!-- /col -->
+			</div><!-- /row -->
+			<br>
+			</div><!-- container -->
+
+
+css:
+
+
+      #career_ul {
+    margin-left: 20px;
+}
+
+#career_form #contact-form button[type="submit"]
+ {
+    width: 25em;
+    background-image:linear-gradient(bottom, #838CD3 0%, #8BA1E9 52%);
+    background-image:-moz-linear-gradient(bottom, #838CD3 0%, #8BA1E9 52%);
+    background-image:-webkit-linear-gradient(bottom, #838CD3 0%, #8BA1E9 52%);
+    }

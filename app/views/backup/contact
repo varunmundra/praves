@@ -1,0 +1,43 @@
+<div class="col-lg-4">
+					<h4>Reach Us</h4>
+					<p><b>Contact Us to know more about us and to get our quote.</b></p>
+					
+	<div id="full_form">    
+    
+    <!-- Form -->
+  <form  action="" method="POST" enctype="multipart/form-data" id="contact-form" >
+      <div>
+        <label>
+          <span>Name: *</span>
+          <input placeholder="Enter your name" type="text" tabindex="1" pattern="[a-zA-Z. ]{1,50}" id="contact_name" name="contact[name]" required>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Email: *</span>
+          <input placeholder="Enter your email address" type="email" tabindex="2" id="contact_email" name="contact[email]"  required>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Mobile: * </span>
+          <input placeholder="Enter your mobile number" type="tel" tabindex="3" pattern="[0-9]{10}" maxlength="10" id="contact_phone" name="contact[phone]" required>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <span>Message:</span>
+          <textarea placeholder="Include all the details you can" tabindex="4" name="contact[message]" id="contact_message" ></textarea>
+        </label>
+      </div>
+      <div>
+        <button name="submit" type="submit" id="contact-submit" name="commit">Submit</button>
+      </div>
+  </form> 
+    <!-- /Form -->
+					</div>
+				</div><!-- col -->
+
+
+        

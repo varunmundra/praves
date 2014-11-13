@@ -1,0 +1,111 @@
+<!-- ==== COMMUNITY ==== -->
+		<div class="container" id="community" name="community">
+		<br><br><br>
+			<div class="row">
+				<br>
+				<h1 class="centered">CORPORATE SOCIAL RESPONSIBILITY</h1>
+				<hr>				
+			</div><!-- /row -->
+		<div class="row" id="community_style">	
+			<div class="col-lg-12">		
+				<H3>AKSHAR Welfare Society</H3>
+				<P align="justify">AKSHAR was founded by our CEO – Avneesh Gupta in June 2009. AKSHAR is an India based Non-Profit Organization with the mission to ensure that every extremely poor child is in school and learning well. AKSHAR Initiatives is providing multiple solutions for bringing quality to elementary education in extremely poor areas of India. AKSHAR is an acronym for 'Activists for Knowledge Stimulated Harmony and Advancement in Rural areas'. AKSHAR has an approach of replicable, comprehensive, scalable and cost-effective education solutions. Currently, AKSHAR works in the interior villages of Uttar Pradesh and Bihar provinces of Inda, and will soon expand its work to reach the entire state of India through its close partnership with the various successful professionals and organizations.All Akshar’s programs are child-centric and are designed to ensure that:</P>
+		<ul>
+			<li>Enrollment of children from extremely poor family in schools increase.</li>
+			<li>Dropouts from schools decrease.</li>
+			<li>Children’s learning outcomes, leadership qualities and overall development improve.</li>
+		</ul>
+
+		</div>
+
+			<div class="col-lg-7">				
+						
+					
+			<h3>AKSHAR’s Objectives</h3>
+	<p><ul align="justify">
+			<li>Run Class-room teaching programs for the underprivileged children in rural areas who don’t have access to quality education.</li>
+			<li>Provide supplemental cultural, moral and extra-curricular education to underprivileged children who don’t get proper informal education from at their home due to poverty and illiteracy in their family.</li>
+			<li>Help the most poverty-ridden section of the society by distributing basic amenities like food and clothing through its planned distribution drives.</li></ul></p>
+						
+			<!-- <p><a href="#" class="icon icon-link"> Read More</a></p> -->
+						
+			</div>
+
+			<div class="col-lg-5" id="community_img1">
+				<p><img class="img" src="/assets/community1.jpg"></p>	
+			</div>
+
+			<div class="col-lg-12" id="community_col-lg-4">
+        	<h3>AKSHAR’s Project Areas</h3>
+        <!-- MAP IMAGE 1 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56436.2935559481!2d79.895651!3d27.863026000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeca83a0c5e6fb37!2sAkshar+Welfare+Society!5e0!3m2!1sen!2sus!4v1405578563345" width="400" height="350" frameborder="0" style="border:0"></iframe>							
+					<h5 align="center">AKSHAR<br>Azizganj,Shahjahanpur.<br>Uttar Pradesh 242001.<br>India +91 97 94 139955</h5>		
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+				<!-- MAP IMAGE 2 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57649.176546415416!2d81.87907!3d25.435805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60b4efd98cb3eaab!2sAKSHAR+Welfare+Society!5e0!3m2!1sen!2sus!4v1405580116206" width="400" height="350" frameborder="0" style="border:0"></iframe>
+					<h5 align="center">AKSHAR<br>Triveni Rd, Daraganj,Allahabad<br>Uttar Pradesh.<br>India +91 97 94 139955</h5>	
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- MAP IMAGE 3 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d923872.0442804325!2d83.841417!3d25.241129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88970de2e23d7631!2sAKSHAR+Welfare+Society!5e0!3m2!1sen!2sus!4v1405580285886" width="400" height="350" frameborder="0" style="border:0"></iframe>							
+					<h5 align="center">AKSHAR<br>Village - Akawani, Sasaram, Karakat<br>Bihar 821115.<br>India +91 97 94 139955</h5>
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+		</div>
+		</div><!-- /row -->
+			
+				
+			<br>
+			<br>
+		
+	
+
+		<!-- ==== SECTION DIVIDER6 ==== -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<h1>BE RSEPONSIBLE FOR BETTER TOMORROW</h1>
+				<hr>
+				<!-- <p>There’s more to design than meets the eye. It’s when it meets the heart that design creates a meaningful, lasting connection with the audience.</p> -->
+			</div>
+		</section>  <!-- section -->
+	</div><!-- /container -->
+
+
+
+	/* ==========================================================================
+   Community Section .css
+   ========================================================================== */
+
+#community_style {
+    font-family: "sans-serif";
+    font-weight: 300;
+    font-size: 14px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+#community_img1 {
+    margin-top: -8%;
+}
+
+#community_col-lg-4 .col-md-4 {
+    background: #F2F2F2;
+    padding: 20px !important ;
+}

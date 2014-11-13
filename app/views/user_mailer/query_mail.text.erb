@@ -1,0 +1,17 @@
+<% if @user.qualification != nil %> 
+
+Name : <%= @user.name %>,
+Email : <%= @user.email %>,
+Mobile : <%= @user.mobile %>,
+Qualification : <%= @user.qualification %>
+
+<% else %> 
+
+Name : <%= @user.name %>,
+Email : <%= @user.email %>,
+Mobile : <%= @user.mobile %>,
+Area : <%= @user.area %>,
+Message : <%= @user.message %>,
+
+<% end %>
+

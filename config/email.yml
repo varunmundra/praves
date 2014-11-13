@@ -1,0 +1,21 @@
+development:
+  :address: smtp.gmail.com
+  :port: 587
+  :Domain: mail.google.com
+  :authentication: plain
+  :user_name: business@pravestech.ca
+  :password: c@lg@rypl@ce
+  :enable_starttls_auto: true        
+
+production:
+  :address: smtp.gmail.com
+  :port: 587
+  :Domain: mail.google.com
+  :authentication: plain
+  :user_name: business@pravestech.ca
+  :password: c@lg@rypl@ce
+  :enable_starttls_auto: true 
+
+
+
+
